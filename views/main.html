@@ -7,9 +7,9 @@
             <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
               <div class="card card-signup">
                 <div class="header header-primary text-center">
-                  <h1 class="text-center">
-                    <img class="img-responsive" style="display: inline-block" src="images/logo-campanha.bcfe0b38.png" alt="{{appTitle}}" />
-                  </h1>
+                  <span class="text-center">
+                    <img class="img-responsive" style="display: inline-block;max-width: 173px;" src="images/logo-campanha.bcfe0b38.png" alt="{{appTitle}}" />
+                  </span>
                 </div>
                 <form name="userForm" ng-submit="submitForm(userForm.$valid, email, password)" novalidate>
                   <div class="language-select text-center bg-primary" ng-controller="LanguageselectCtrl" ng-if="Utils.keys(grupo.multilingua.linguas).length > 1"
